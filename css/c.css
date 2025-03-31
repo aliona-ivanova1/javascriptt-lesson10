@@ -1,0 +1,36 @@
+.div-post{
+    max-width: 800px;
+    width: 100%;
+    background-color: aquamarine;
+}
+.post-overley{
+    background-color: rgb(105, 117, 105);
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 40%;
+    height: 20%;
+    position: fixed;
+    top: 4px;
+    left: 0;
+    display: none;
+}
+.post-overley.clickoverley{
+    display: block;
+}
+.fa-xmark{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.pp{
+    text-align: center;
+    color: blanchedalmond;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(20px);
+}
